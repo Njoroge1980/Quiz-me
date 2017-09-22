@@ -1,15 +1,11 @@
 # quiz-me
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application seeks to provide a wealth of knowledge to you by providing a databank of questions and answers. You should be able to participate to furthering the database by contributing questions and answers as well.
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
 ## Installation
