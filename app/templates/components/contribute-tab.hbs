@@ -1,0 +1,23 @@
+{{#if contributeQuestion}}
+    <h2>/Add Your Question</h2>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="question">Question</label>
+          {{input value=question id="question"}}
+        </div>
+
+        <div class="form-group">
+          <label for="author">Author</label>
+          {{input value=author id="author"}}
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Additional Information</label>
+        {{input value=notes id="notes"}}
+      </div>
+    </form>
+  </div>
+  {{else}}
+    <button {{action 'contributeQuestion'}}>Add Question</button>
+    {{/if}}
