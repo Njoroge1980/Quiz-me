@@ -1,0 +1,24 @@
+{ "questions" : [{
+
+      "question": "After how long does the republic of Kenya hold general elections?",
+      "author" : "Peter Paul",
+      "notes" : "Kenya is the largest economy in East Africa that stretches from the Indian Ocean
+                in the East to the Lake Victoria in the West. Its previous election was held in 2012"
+          }, {
+
+        "question": "What is the body charged with overseeing Kenya's election called",
+        "author" : "Chilobae",
+        "notes" : "Following the post election violence in 2007/2008, Kenya's electoral body was done
+                    away with as it was then constituted and a new one called the Interim Independent
+                    electoral and boundaries commission formed. Since then the body has been renamed"
+        }, {
+
+          "question": "Name the candidates who vied for the seat of the president of Kenya",
+          "author" : "Sylvia Naomi",
+          "notes" : "Being an open democracy, Kenya has few restrictions on who can be on the ballot
+                    for president of the country. Other than being Kenyan citizen, above the age of 35,
+                    and holding a minimum education of a bachelor's decree, there are no hurdles to
+                    vying for the top job."
+
+              }]
+            }
