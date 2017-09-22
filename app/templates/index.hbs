@@ -8,3 +8,9 @@
     answer. </p>
 <p>You will also be able to add your own questions and answers
     to this page and contribute to this growing knowledge base</P>
+
+    <ul>
+      {{#each model as |question|}}
+      {{question-tab question=question}}
+      {{/each}}
+    </ul>
