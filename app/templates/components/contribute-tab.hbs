@@ -1,5 +1,5 @@
-{{#if contributeQuestion}}
-    <h2>/Add Your Question</h2>
+{{#if contributeQuestionForm}}
+    <h2>Contribute a Question</h2>
     <div>
       <form>
         <div class="form-group">
@@ -16,8 +16,10 @@
           <label for="notes">Additional Information</label>
         {{input value=notes id="notes"}}
       </div>
+
+      <button {{action 'saveQuestion' }}>Save </button>
     </form>
   </div>
   {{else}}
-    <button {{action 'contributeQuestion'}}>Add Question</button>
+    <button {{action 'contributeQuestionForm'}}>Add Question</button>
     {{/if}}
