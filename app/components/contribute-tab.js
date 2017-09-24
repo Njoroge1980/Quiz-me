@@ -1,21 +1,22 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  contributeQuestion: false,
+  contributeQuestionForm: false,
   actions: {
-    addQuestion() {
-      this.set('contributeQuestion', true);
+    contributeQuestionForm() {
+      this.set('contributeQuestionForm', true);
     },
 
-    addQuestion() {
-      var detail = {
+    saveQuestion(question) {
+      var details = {
         question: this.get('question'),
         author: this.get('author'),
-        notes: this.get('notes'),
+        notes: this.get('notes') ? this.get('notes') : "",
       };
-      this.set('contributeQuestion', false);
-    }
+      this.set('contributeQuestionForm', false);
+      this.sendAction('saveQuestion', question, details);
 
+    }
 
   }
 });
