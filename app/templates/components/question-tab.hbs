@@ -1,3 +1,7 @@
 <li>
-  {{question.question}} {{question.author}} {{question.notes}}
+  {{question.question}} by {{question.author}}
+</li>
+<li>
+  {{#link-to 'questions' question-id}} {{question.notes}} {{/link-to}}
+
 </li>

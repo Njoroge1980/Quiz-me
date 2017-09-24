@@ -1,7 +1,5 @@
-<header>
 
-  <h1> Quiz Me </h1>
-</header>
+
 <h2> Hello and welcome to the Quiz page </h2>
 <p> Below is a list of questions and if you click on one,
     you will get a few more details on it and its corresponding
@@ -14,3 +12,9 @@
       {{question-tab question=question}}
       {{/each}}
     </ul>
+
+    {{contribute-tab saveQuestion='saveQuestion'}}
+    <li>
+      {{#link-to 'questions' question-id}} {{question.notes}} {{/link-to}}
+
+    </li>
