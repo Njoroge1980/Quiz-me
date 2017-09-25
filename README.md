@@ -1,5 +1,5 @@
 # quiz-me
-
+## Description
 This application seeks to provide a wealth of knowledge to you by providing a databank of questions and answers. You should be able to participate to furthering the database by contributing questions and answers as well.
 
 ## Prerequisites
@@ -19,9 +19,6 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -35,12 +32,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+This app can be deployed from Github by going to the link at "deployed link" window.
 
-## Further Reading / Useful Links
+## Support and contact details
 
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+In case you run into any problems while installing or using the app or for further comments, you can reach the team at
+njorogemungai980@gmail.com
+
+## License
+
+MIT Copyright (c) 2017 Njoroge Mungai
