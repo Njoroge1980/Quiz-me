@@ -1,10 +1,27 @@
 {
+<<<<<<< HEAD
   "hosting": {
     "public": "dist",
+=======
+  "database": {
+    "rules": "questions.json"
+  },
+  "hosting": {
+    "public": "app",
+>>>>>>> 72487d9a83caf876eeed4727630d5e90e2ccb677
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+<<<<<<< HEAD
+=======
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+>>>>>>> 72487d9a83caf876eeed4727630d5e90e2ccb677
     ]
   }
 }
